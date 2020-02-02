@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+</head>
+<!-- <style>
+body{
+    background:url("Screenshot from 2020-02-02 17-08-43.png");
+}
+</style> -->
+<body>
+    <h4>Contact Us</h4>
+
+   <form action="backend.php">
+       <p><label for="name">Name</label><input type="text" name="myName" id="name"></p>
+       <p><label for="contactnbr">Contact Number</label><input type="number" name="myContactNumber" id="contactnbr"></p>
+       <p><label for="email">Email Id</label><input type="email" name="myEmail" id="email"></p>
+       <p><label for="age">Age</label><input type="number" name="myAge" id="age"></p>
+       <p><label for="packages">Select Package</label>
+    <select name="myPackages" id="packages"> 
+        <option value="weight training">Weight Training(3,000 Rs./month)</option>
+        <option value="biceps">Biceps Training(2,000 Rs./month)</option>
+        <option value="full body fitness">Full Body Fitness(5,000 Rs./month)</option>
+    </select> </p> 
+       <p><label for="location">Location</label><input type="text" name="myLocation" id="location"></p>
+       <button>SUBMIT</button>
+       <!-- <input value="SUBMIT" type="submit"> -->
+   </form>  
+</body>
+</html>
