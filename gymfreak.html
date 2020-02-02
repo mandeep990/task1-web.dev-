@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GYM website</title>
+</head>
+<link rel="stylesheet" href="main.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+        background: url("people-2604149_1920.jpg");
+    }
+
+    .left {
+        border: 2px;
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 18px;
+    }
+
+    .right {
+        border: 2px ridge white;
+        border-radius:4px;
+        display: block;
+        width: 50%;
+        top:12px;
+        margin-left:50px;margin-top:2px;
+        
+       
+    }
+
+    .bottom{
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top:505px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 4px;
+        font-size: 20px;
+        cursor: pointer;
+        
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey
+    }
+
+    .btn {
+        margin: 0px 4px;
+        padding: 5px 4px 2px 2px;
+        color: white;
+        background-color: black;
+        border: 4px solid grey;
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    #img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .container {
+        border: 3px dashed chartreuse;
+        border-radius: 10px;
+        margin: 106px 20px;
+        padding: 20px 20px;
+        width: 45%;
+        color: chartreuse;
+        font-size: 20px;
+    }
+
+    #p{
+        font-size:30px;
+        color: orangered;
+    }
+    #discount{
+        color:rgb(219, 196, 196);
+    }
+    #contact{
+        color:white;
+    }
+</style>
+
+<body>
+    <!-- <img src="Screenshot from 2020-02-02 12-44-35.png" alt=" uvhjd "> -->
+    <header class="header">
+        <div class="left">
+            <img src="Screenshot from 2020-02-02 12-46-15.png" alt="" id="img">
+            <!-- <div><b>FITNESS CLUB</b> </div> -->
+        </div>
+        <nav class="right">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Centre</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+        <nav class="bottom">
+            <button class="btn">Call US</button><button class="btn">Email US</button>
+
+        </nav>
+    </header>
+    <div class="container">
+        <p id="p"><b>Join the best gym of Mandi:)</b></p>
+        Join asap, We have a limited <strong><em id="discount">70% discount</em></strong> on all our packages.</br><strong id="contact">Contact Us</strong> to join</br>
+        <div>Drop a Email for any Quary</div>
+<!-- 
+        <form action="backen.php">
+            <div><label for="name">Name </label><input type="text" name="myName" id="name"></div>
+            <div><label for="age">Age </label><input type="number" name="myAge" id="age"></div>
+            <div><label for="number">Contact Number </label><input type="text" name="myNumber" id="number"></div>
+            <div><label for="gender">Choose your Gender</label><input type="radio" name="myGender" id="gender">Male
+          <input type="radio" name="myGender" id="gender">Female
+        <input type="radio" name="myGender" id="gender">other</div>
+            <button id="submit">SUBMIT</button>
+        </form> -->
+    </div>
+</body>
+
+</html>

@@ -6,17 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Us</title>
 </head>
-<!-- <style>
+<style>
 body{
     background:url("Screenshot from 2020-02-02 17-08-43.png");
 }
-</style> -->
+.form{
+    border:4px solid yellowgreen;
+    width:40%;
+    border-radius:10px;
+    padding:4px 4px 4px 4px;
+}
+</style>
 <body>
-    <h4>Contact Us</h4>
+    <h2>Contact Us</h2>
 
-   <form action="backend.php">
+   <form action="backend.php" class="form">
        <p><label for="name">Name</label><input type="text" name="myName" id="name"></p>
-       <p><label for="contactnbr">Contact Number</label><input type="number" name="myContactNumber" id="contactnbr"></p>
+       <p><label for="contactnbr">Contact Number</label><input type="text" name="myContactNumber" id="contactnbr"></p>
        <p><label for="email">Email Id</label><input type="email" name="myEmail" id="email"></p>
        <p><label for="age">Age</label><input type="number" name="myAge" id="age"></p>
        <p><label for="packages">Select Package</label>
